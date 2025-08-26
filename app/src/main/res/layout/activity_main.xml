@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Contact Sharing App by Varad Ubale\n"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:backgroundTint="#9C27B0"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone"
+        android:inputType="phone"
+        android:backgroundTint="#9C27B0"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="#9C27B0"
+        android:textColorHint="#888888"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Contact"
+        android:backgroundTint="#5409DA"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
